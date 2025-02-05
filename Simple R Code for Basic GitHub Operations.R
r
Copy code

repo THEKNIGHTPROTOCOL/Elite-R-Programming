@@ -1,0 +1,30 @@
+# Load git2r package
+library(git2r)
+
+# Clone a GitHub repository
+repo <- clone("https://github.com/your-username/your-repo.git", "your-local-path")
+
+# Set working directory to the cloned repo
+setwd("your-local-path")
+
+# Create and write to a new file
+writeLines("Hello GitHub from R!", "newfile.txt")
+
+# Open the repository
+repo <- repository("your-local-path")
+
+# Stage the new file
+add(repo, "newfile.txt")
+
+# Commit the file
+commit(repo, "Added newfile.txt")
+
+# Push the changes (Use Personal Access Token instead of a password)
+cred <- cred_user_pass("your-username", "your-personal-access-token")
+push(repo, credentials = cred)
+
+# Pull the latest changes
+pull(repo, credentials = cred)
+
+# Check Git status
+status(repo)
