@@ -1,0 +1,8 @@
+reverse_number <- function(num) {
+  rev_num <- as.numeric(paste(rev(unlist(strsplit(as.character(num), ""))), collapse = ""))
+  return(rev_num)
+}
+
+# Test the function
+num <- 12345
+print(paste("Reversed Number:", reverse_number(num)))
