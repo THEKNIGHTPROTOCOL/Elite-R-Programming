@@ -1,0 +1,13 @@
+gcd <- function(a, b) {
+  while (b != 0) {
+    temp <- b
+    b <- a %% b
+    a <- temp
+  }
+  return(a)
+}
+
+# Test the function
+num1 <- 48
+num2 <- 18
+print(paste("GCD of", num1, "and", num2, "is:", gcd(num1, num2)))
