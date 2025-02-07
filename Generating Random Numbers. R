@@ -1,0 +1,6 @@
+# Generate 10 random numbers from a normal distribution
+random_numbers <- rnorm(10, mean = 50, sd = 10)
+
+# Print and plot
+print(random_numbers)
+hist(random_numbers, main = "Histogram of Random Numbers", col = "blue")
