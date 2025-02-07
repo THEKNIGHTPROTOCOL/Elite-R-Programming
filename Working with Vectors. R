@@ -1,0 +1,10 @@
+# Create a numeric vector
+numbers <- c(1, 2, 3, 4, 5)
+
+# Perform operations
+squared <- numbers^2
+mean_value <- mean(numbers)
+
+# Print results
+print(squared)
+print(paste("Mean:", mean_value))
