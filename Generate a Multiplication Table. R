@@ -1,0 +1,8 @@
+multiplication_table <- function(n, limit = 10) {
+  for (i in 1:limit) {
+    print(paste(n, "x", i, "=", n * i))
+  }
+}
+
+# Test the function
+multiplication_table(7)
