@@ -1,0 +1,8 @@
+is_palindrome <- function(num) {
+  rev_num <- as.numeric(paste(rev(unlist(strsplit(as.character(num), ""))), collapse = ""))
+  return(num == rev_num)
+}
+
+# Test the function
+num <- 121
+print(paste(num, "is a palindrome:", is_palindrome(num)))
