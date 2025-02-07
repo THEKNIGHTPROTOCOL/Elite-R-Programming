@@ -1,0 +1,8 @@
+lcm <- function(a, b) {
+  return(abs(a * b) / gcd(a, b))
+}
+
+# Test the function
+num1 <- 12
+num2 <- 18
+print(paste("LCM of", num1, "and", num2, "is:", lcm(num1, num2)))
