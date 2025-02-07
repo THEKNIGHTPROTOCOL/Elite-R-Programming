@@ -1,0 +1,7 @@
+# Function to calculate the square of a number
+square <- function(x) {
+  return(x^2)
+}
+
+# Test function
+print(square(5))
