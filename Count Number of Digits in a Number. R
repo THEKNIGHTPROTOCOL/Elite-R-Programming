@@ -1,0 +1,7 @@
+count_digits <- function(num) {
+  return(nchar(as.character(num)))
+}
+
+# Test the function
+num <- 987654
+print(paste("Number of digits:", count_digits(num)))
