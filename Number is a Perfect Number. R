@@ -1,0 +1,13 @@
+is_perfect <- function(num) {
+  divisors <- c()
+  for (i in 1:(num-1)) {
+    if (num %% i == 0) {
+      divisors <- c(divisors, i)
+    }
+  }
+  return(sum(divisors) == num)
+}
+
+# Test the function
+num <- 28
+print(paste(num, "is a perfect number:", is_perfect(num)))
