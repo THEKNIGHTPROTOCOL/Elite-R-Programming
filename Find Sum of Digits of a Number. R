@@ -1,0 +1,8 @@
+sum_of_digits <- function(num) {
+  digits <- as.numeric(unlist(strsplit(as.character(num), "")))
+  return(sum(digits))
+}
+
+# Test the function
+num <- 987
+print(paste("Sum of Digits:", sum_of_digits(num)))
