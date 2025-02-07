@@ -1,0 +1,12 @@
+swap_numbers <- function(a, b) {
+  a <- a + b
+  b <- a - b
+  a <- a - b
+  return(c(a, b))
+}
+
+# Test the function
+num1 <- 5
+num2 <- 10
+swapped <- swap_numbers(num1, num2)
+print(paste("After swapping: num1 =", swapped[1], ", num2 =", swapped[2]))
