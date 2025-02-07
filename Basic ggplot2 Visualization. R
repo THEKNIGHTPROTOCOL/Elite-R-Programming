@@ -1,0 +1,13 @@
+# Load library
+library(ggplot2)
+
+# Create a sample data frame
+df <- data.frame(
+  x = c(1, 2, 3, 4, 5),
+  y = c(2, 4, 6, 8, 10)
+)
+
+# Create a scatter plot
+ggplot(df, aes(x = x, y = y)) +
+  geom_point(color = "blue") +
+  ggtitle("Simple Scatter Plot")
