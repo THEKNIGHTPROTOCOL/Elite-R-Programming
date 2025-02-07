@@ -1,0 +1,10 @@
+# Create a simple data frame
+df <- data.frame(
+  Name = c("Alice", "Bob", "Charlie"),
+  Age = c(25, 30, 22),
+  Score = c(90, 85, 88)
+)
+
+# Print and summarize
+print(df)
+summary(df)
