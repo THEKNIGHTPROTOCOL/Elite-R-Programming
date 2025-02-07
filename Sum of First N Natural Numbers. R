@@ -1,0 +1,7 @@
+sum_natural <- function(n) {
+  return(n * (n + 1) / 2)
+}
+
+# Test the function
+n <- 10
+print(paste("Sum of first", n, "natural numbers:", sum_natural(n)))
