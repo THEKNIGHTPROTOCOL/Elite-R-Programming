@@ -1,0 +1,15 @@
+is_prime <- function(n) {
+  if (n < 2) {
+    return(FALSE)
+  }
+  for (i in 2:sqrt(n)) {
+    if (n %% i == 0) {
+      return(FALSE)
+    }
+  }
+  return(TRUE)
+}
+
+# Test the function
+num <- 29
+print(paste(num, "is prime:", is_prime(num)))
