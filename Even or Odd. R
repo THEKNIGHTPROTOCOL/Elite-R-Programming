@@ -1,0 +1,11 @@
+is_even_odd <- function(num) {
+  if (num %% 2 == 0) {
+    return("Even")
+  } else {
+    return("Odd")
+  }
+}
+
+# Test the function
+num <- 7
+print(paste(num, "is", is_even_odd(num)))
