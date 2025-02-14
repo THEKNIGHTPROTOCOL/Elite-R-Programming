@@ -1,0 +1,1 @@
+my_array[c(1, 2), c(1, 3), 1]  # Select specific rows and columns from the first layer
