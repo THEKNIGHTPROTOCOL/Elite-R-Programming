@@ -1,0 +1,2 @@
+print(dim(arr))  # Returns dimensions of the array
+print(str(arr))  # Prints structure of the array
