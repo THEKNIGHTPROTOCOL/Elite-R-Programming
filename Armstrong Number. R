@@ -5,7 +5,7 @@ is_armstrong <- function(num) {
   if (sum_of_cubes == num) {
     return(TRUE)
   } else {
-    return(FALSE)
+    return(FALSE)       
   }
 }
 
