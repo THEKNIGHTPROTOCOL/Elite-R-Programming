@@ -1,6 +1,6 @@
 is_armstrong <- function(num) {
   digits <- as.numeric(unlist(strsplit(as.character(num), "")))
-  sum_of_cubes <- sum(digits^length(digits))
+  sum_of_cubes <- sum(digits^length(digits))      
   
   if (sum_of_cubes == num) {
     return(TRUE)
