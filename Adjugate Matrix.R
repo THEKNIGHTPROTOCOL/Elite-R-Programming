@@ -2,7 +2,7 @@
 minor_matrix <- function(mat, row, col) {
   return(mat[-row, -col])  # Remove the specified row and column
 }
-      
+           
 # Function to compute the determinant of a matrix (used for minors)
 determinant_matrix <- function(mat) {
   n <- nrow(mat)
