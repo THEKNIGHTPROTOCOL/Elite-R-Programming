@@ -3,7 +3,7 @@
 
 ![R Programming](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*FDbINRT8ix1VK6HPjEfbVQ.jpeg)  
 
-## **🌟 About This Repository**  
+## **🌟 About This Repository**   
 Welcome to **Elite R Programming** – a carefully curated collection of professional-grade R scripts designed for **data science, statistical modeling, machine learning, and beyond**. If you're serious about **mastering R**, this repository will take you from **fundamentals to advanced analytics** with ease.  
 
 Whether you're an **aspiring data scientist**, an **AI enthusiast**, or an **ML researcher**, this repository is your **one-stop destination** for unlocking the full potential of R.  
