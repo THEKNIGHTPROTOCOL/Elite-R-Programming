@@ -5,4 +5,4 @@ is.nan(x)   # TRUE only for NaN
 
 # Output:
 # is.na(x)  => FALSE TRUE FALSE TRUE FALSE
-# is.nan(x) => FALSE FALSE FALSE TRUE FALSE
+# is.nan(x) => FALSE FALSE FALSE TRUE FALSE 
