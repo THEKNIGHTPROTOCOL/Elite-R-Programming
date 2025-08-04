@@ -6,7 +6,7 @@ gcd <- function(a, b) {
     a <- temp
   }
   return(a)
-}
+} 
 
 # Function to find LCM using the formula LCM(x, y) = (x * y) / GCD(x, y)
 lcm <- function(x, y) {
