@@ -1,5 +1,5 @@
 # Accessing with indices:
-my_array[1, 2, 3]  # Element at Row1, Col2, L3
+my_array[1, 2, 3]  # Element at Row1, Col2, L3 
 my_array["Row1", "Col2", "L3"] # Using dimension names
 
 # Slicing: 
